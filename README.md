@@ -2,7 +2,7 @@
 
 ![img](https://user-images.githubusercontent.com/17881612/91968083-5ee92080-ed29-11ea-82ec-d99ec85367a5.png)
 
-This project is designed to scrape News articles from multiple north eastern websites like [North East Now](https://assam.nenow.in/) using Scrapy. The goal is to create a structured dataset of news articles across different categories such as Business, Culture, Education, Entertainment, Health, Literature, Sports, Technology, and Youth Voice.
+This project is designed to scrape Online indic news articles from multiple north eastern websites like [Indic News articles](https://assam.nenow.in/) using Scrapy. The goal is to create a structured dataset of news articles across different categories such as Business, Culture, Education, Entertainment, Health, Literature, Sports, Technology, and Youth Voice.
 
 ## Features
 
@@ -45,7 +45,7 @@ import scrapy
 
 class NewsSpider(scrapy.Spider):
     name = 'buis'
-    start_urls = ['https://assam.nenow.in/category/business/']
+    start_url [https:// Indic news page link]
 
     def parse(self, response):
         for article in response.css('div.jeg_postblock_content'):
