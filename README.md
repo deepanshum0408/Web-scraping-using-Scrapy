@@ -1,4 +1,4 @@
-# News Scraper: A Web Scraping Project Using Scrapy
+# Indic News Scraper
 
 ![img](https://user-images.githubusercontent.com/17881612/91968083-5ee92080-ed29-11ea-82ec-d99ec85367a5.png)
 
